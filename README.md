@@ -23,3 +23,5 @@ CREATE TABLE IF NOT EXISTS tarefas (
 
 Intruções do que é cada coisa estão adicionadas seguidas por "--" 
 elas são ignoradas na linha de comando do MySQL Workbench
+
+ No xampp você deverá ligar o módulo Apache e MySQL.
