@@ -6,7 +6,7 @@ public class Database {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             return DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/todolist", "root", ""); // ajuste a senha se tiver
+                "jdbc:mysql://localhost:3306/todolist", "root", "");
         } catch (Exception e) {
             e.printStackTrace();
             return null;
